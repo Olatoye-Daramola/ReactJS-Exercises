@@ -7,12 +7,46 @@
     align-items: center;
 }
 
-.registration_page {
+.intro_container {
+    margin-top: 60px;
+    padding: 40px 10%;
+}
+
+.intro_text {
+    width: 50%;
+}
+
+h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    color: #b0bf1a;
+    font-size: 13px;
+}
+
+.top_circle {
+    position: absolute;
+    top: 5.5rem;
+    z-index: -1;
+}
+
+.bottom_circle {
+    position: absolute;
+    bottom: 5rem;
+    z-index: -1;
+    right: 0;
+}
+
+.registration_page_container {
     background-color: #242423;
     width: 25vw;
     height: 100vh;
     position: relative;
     flex-direction: column;
+    z-index: 0;
 }
 
 .input_field {
